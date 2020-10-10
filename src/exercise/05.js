@@ -6,8 +6,6 @@ function Tilt({ children }) {
 
   useEffect(() => {
     const tiltNode = tiltRef.current
-    console.log(tiltRef);
-    console.log(tiltNode);
 
     VanillaTilt.init(tiltNode, {
       max: 25,
